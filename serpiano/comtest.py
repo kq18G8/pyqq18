@@ -18,7 +18,7 @@ song2 = ['1','2','3','1','1','2','3','1','3','4','5','3','4','5']
 
 for p in ports:
     print (p[1])
-    if "Arduino" in p[1]:
+    if "SERIAL" in p[1]:
 	    ser=serial.Serial(port=p[0])
     else :
 	    print ("No Arduino Device was found connected to the computer")
@@ -35,9 +35,13 @@ def run():
             for notes in song1:
                 ser.write(notes.encode())
                 print ("send:"+notes)
-                time.sleep(1)
+                time.sleep(2)
         elif action == "2":
-            ser.write('2'.encode())
+            for notes in song2:
+                ser.write(notes.encode())
+                print("send:"+notes)
+                time.sleep(2)
+
 
         else :
             return

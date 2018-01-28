@@ -6,5 +6,4 @@ print（"唐-李白")
 print("白日依山尽")
 print("黄河入海流")
 print("欲穷千里目")
-print("更上一层楼")
-print(1234)
+# 20180128dataquest进展：布尔和if语句

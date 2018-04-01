@@ -11,4 +11,4 @@ time.sleep(3)
 while True:
     time.sleep(1)
     pos=mc.player.getTilePos()
-    mc.postToChat("pos"+str(pos.x)+str(pos.y)+str(pos.z))
+    mc.postToChat("pos"+"x:"+str(pos.x)+"y"+str(pos.y)+"z"+str(pos.z))

@@ -16,7 +16,7 @@ fancyGraphics:false
 ao:2
 clouds:true
 skin:Default
-lastServer:
+lastServer:127.0.0.1
 lang:zh_CN
 chatVisibility:0
 chatColors:true

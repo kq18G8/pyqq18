@@ -1,11 +1,11 @@
-CraftGuide: Extracting 'base/base.png' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\base\base.png'
-CraftGuide: Extracting 'base/readme.txt' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\base\readme.txt'
-CraftGuide: Extracting 'base/theme.xml' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\base\theme.xml'
-CraftGuide: Extracting 'dark/dark.png' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\dark\dark.png'
-CraftGuide: Extracting 'dark/dark_brew.png' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\dark\dark_brew.png'
-CraftGuide: Extracting 'dark/dark_craft.png' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\dark\dark_craft.png'
-CraftGuide: Extracting 'dark/theme.xml' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\dark\theme.xml'
-CraftGuide: Extracting 'texpack_support/theme.xml' to 'E:\schools\华东康桥\国际部G8_2018春\1.64简单整合\.minecraft\config\CraftGuide\themes\texpack_support\theme.xml'
+CraftGuide: Extracting 'base/base.png' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\base\base.png'
+CraftGuide: Extracting 'base/readme.txt' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\base\readme.txt'
+CraftGuide: Extracting 'base/theme.xml' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\base\theme.xml'
+CraftGuide: Extracting 'dark/dark.png' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\dark\dark.png'
+CraftGuide: Extracting 'dark/dark_brew.png' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\dark\dark_brew.png'
+CraftGuide: Extracting 'dark/dark_craft.png' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\dark\dark_craft.png'
+CraftGuide: Extracting 'dark/theme.xml' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\dark\theme.xml'
+CraftGuide: Extracting 'texpack_support/theme.xml' to 'E:\students\pqqc\pyqq18\mc16.4\mcclient\.minecraft\config\CraftGuide\themes\texpack_support\theme.xml'
 (re)loading themes...
   Trying to load directory: base
     Found theme.xml

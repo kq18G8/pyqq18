@@ -1,0 +1,80 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 13-10-13 下午7:51
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+cpw.mods.fml.common.LoaderException: java.lang.NoSuchFieldError: field_71446_o
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:149)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:521)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:183)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:472)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:807)
+	at net.minecraft.client.main.Main.main(SourceFile:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:27)
+Caused by: java.lang.NoSuchFieldError: field_71446_o
+	at uristqwerty.CraftGuide.client.fml.CraftGuideClient_FML.getSelectedTexturePack(CraftGuideClient_FML.java:35)
+	at uristqwerty.CraftGuide.client.CraftGuideClient.getTexturePack(CraftGuideClient.java:209)
+	at uristqwerty.gui.theme.ThemeManager.reload(ThemeManager.java:77)
+	at uristqwerty.CraftGuide.client.CraftGuideClient.preInit(CraftGuideClient.java:51)
+	at uristqwerty.CraftGuide.CraftGuide.preInit(CraftGuide.java:66)
+	at uristqwerty.CraftGuide.CraftGuide_FML.preInit(CraftGuide_FML.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:545)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:194)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:105)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:520)
+	... 10 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.6.4
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_40, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 254904152 bytes (243 MB) / 472907776 bytes (451 MB) up to 954728448 bytes (910 MB)
+	JVM Flags: 1 total; -Xmx1024m
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v8.11 FML v6.4.20.916 Minecraft Forge 9.11.1.916 Optifine OptiFine_1.6.4_HD_U_C5(由Mcbbs论坛jamesskl汉化) 9 mods loaded, 9 mods active
+	mcp{8.09} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized
+	FML{6.4.20.916} [Forge Mod Loader] (minecraftforge-9.11.1.916.jar) Unloaded->Constructed->Pre-initialized
+	Forge{9.11.1.916} [Minecraft Forge] (minecraftforge-9.11.1.916.jar) Unloaded->Constructed->Pre-initialized
+	mod_bspkrsCore{v3.05(1.6.4)} [bspkrsCore] ([1.6.4]bspkrsCorev3.05.zip) Unloaded->Constructed->Pre-initialized
+	DamageIndicatorsMod{2.9.0.6} [Damage Indicators] (1.6.4 DamageIndicators v2.9.0.6.zip) Unloaded->Constructed->Pre-initialized
+	mod_ArmorStatusHUD{v1.13(1.6.4)} [ArmorStatusHUD] ([1.6.4]ArmorStatusHUDv1.13.zip) Unloaded->Constructed->Pre-initialized
+	craftguide{1.5.2} [CraftGuide] (CraftGuide.zip) Unloaded->Constructed->Errored
+	inventorytweaks{1.57-dev} [Inventory Tweaks] (InventoryTweaks-MC1.6.4-1.57-dev-b83.jar) Unloaded->Constructed->Pre-initialized
+	mod_ZanMinimap{0.9.4} [Zan's Minimap] (ZansMinimap1.6.4.zip) Unloaded->Constructed->Pre-initialized

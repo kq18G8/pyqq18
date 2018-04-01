@@ -1,0 +1,114 @@
+2013-10-13 19:31:02 [CLIENT] [INFO] Setting user: suwako99
+2013-10-13 19:31:02 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:31:02 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:31:02 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:31:05 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-10-13 19:31:28 [CLIENT] [INFO] Stopping!
+2013-10-13 19:35:05 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:35:05 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:35:05 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:35:05 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:35:18 [CLIENT] [SEVERE] Realms: Server not available!
+2013-10-13 19:35:52 [CLIENT] [INFO] Stopping!
+2013-10-13 19:36:00 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:36:00 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:36:01 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:36:01 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:36:03 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-10-13 19:36:04 [CLIENT] [INFO] Stopping!
+2013-10-13 19:39:42 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:39:42 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:39:43 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:39:44 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:39:45 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+2013-10-13 19:39:46 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+2013-10-13 19:39:48 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-10-13 19:41:14 [CLIENT] [INFO] Stopping!
+2013-10-13 19:41:22 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:41:22 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:41:23 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:41:23 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:41:25 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:41:58 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:41:58 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:41:59 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:41:59 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:42:00 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:45:02 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:45:02 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:45:03 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:45:04 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:45:05 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:45:08 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-10-13 19:45:16 [CLIENT] [INFO] Stopping!
+2013-10-13 19:45:41 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:45:41 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:45:42 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:45:43 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:45:44 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:45:48 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:45:49 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-10-13 19:46:19 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:46:20 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:46:46 [CLIENT] [INFO] [CHAT] No waypoints exist for this world/server.
+2013-10-13 19:46:48 [CLIENT] [INFO] [CHAT] Damage Indicators was unable to check for updates!
+2013-10-13 19:51:01 [CLIENT] [INFO] Stopping!
+2013-10-13 19:51:31 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:51:31 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:51:32 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:51:32 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:51:34 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:53:34 [CLIENT] [INFO] Setting user: 2333
+2013-10-13 19:53:34 [CLIENT] [INFO] (Session ID is ${auth_session})
+2013-10-13 19:53:35 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-10-13 19:53:35 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-10-13 19:53:37 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:53:40 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2013-10-13 19:53:42 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-10-13 19:57:07 [CLIENT] [INFO] Stopping!
+2018-03-07 13:36:28 [CLIENT] [INFO] Setting user: mygame
+2018-03-07 13:36:28 [CLIENT] [INFO] (Session ID is ${auth_session})
+2018-03-07 13:36:28 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2018-03-19 11:26:30 [CLIENT] [INFO] Setting user: mygame
+2018-03-19 11:26:30 [CLIENT] [INFO] (Session ID is ${auth_session})
+2018-03-19 11:26:31 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2018-03-19 11:27:40 [CLIENT] [INFO] Setting user: mygame
+2018-03-19 11:27:40 [CLIENT] [INFO] (Session ID is ${auth_session})
+2018-03-19 11:27:40 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2018-03-20 21:13:38 [CLIENT] [INFO] Setting user: mygame
+2018-03-20 21:13:38 [CLIENT] [INFO] (Session ID is ${auth_session})
+2018-03-20 21:13:39 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2018-03-20 21:13:40 [CLIENT] [INFO] Reloading ResourceManager: Default
+2018-03-20 21:13:42 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2018-03-20 21:13:50 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2018-03-20 21:13:51 [CLIENT] [SEVERE] Realms: Server not available!
+2018-03-20 21:17:24 [CLIENT] [INFO] Stopping!
+2018-03-21 10:46:21 [CLIENT] [INFO] Setting user: mygame
+2018-03-21 10:46:21 [CLIENT] [INFO] (Session ID is ${auth_session})
+2018-03-21 10:46:22 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2018-03-21 10:46:23 [CLIENT] [INFO] Reloading ResourceManager: Default
+2018-03-21 10:46:26 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2018-03-21 10:46:35 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2018-03-21 10:46:37 [CLIENT] [SEVERE] Realms: Server not available!
+2018-03-21 10:51:09 [CLIENT] [INFO] Stopping!
+2018-03-31 17:38:34 [CLIENT] [INFO] Setting user: mygame
+2018-03-31 17:38:34 [CLIENT] [INFO] (Session ID is ${auth_session})
+2018-03-31 17:38:35 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2018-03-31 17:38:35 [CLIENT] [INFO] Reloading ResourceManager: Default
+2018-03-31 17:38:40 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2018-03-31 17:38:51 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Damage Indicators, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Inventory Tweaks
+2018-03-31 17:38:53 [CLIENT] [SEVERE] Realms: Server not available!
+2018-03-31 17:39:47 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.47.png
+2018-03-31 17:39:47 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.47_2.png
+2018-03-31 17:39:48 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.48.png
+2018-03-31 17:39:48 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.48_2.png
+2018-03-31 17:39:48 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.48_3.png
+2018-03-31 17:39:48 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.48_4.png
+2018-03-31 17:39:49 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.49.png
+2018-03-31 17:39:50 [CLIENT] [INFO] [CHAT] Saved screenshot as 2018-03-31_17.39.50.png
+2018-03-31 17:40:09 [CLIENT] [INFO] Connecting to 127.0.0.1, 25565
+2018-03-31 17:40:11 [CLIENT] [INFO] [CHAT] mygame joined the game.
+2018-03-31 17:40:11 [CLIENT] [INFO] [CHAT] A new OptiFine version is available: HD_U C9
+2018-03-31 17:40:12 [CLIENT] [INFO] [CHAT] Damage Indicators was unable to check for updates!
+2018-03-31 17:40:13 [CLIENT] [INFO] [CHAT] No waypoints exist for this world/server.
+2018-03-31 17:54:14 [CLIENT] [INFO] Stopping!

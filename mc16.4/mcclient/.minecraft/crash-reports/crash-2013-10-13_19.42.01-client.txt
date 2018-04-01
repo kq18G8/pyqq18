@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// Oops.
+
+Time: 13-10-13 ÏÂÎç7:42
+Description: Initializing game
+
+java.lang.NoSuchMethodError: net.minecraft.client.Minecraft.b()Ljava/io/File;
+	at bspkrs.util.CommonUtils.getMinecraftDir(CommonUtils.java:422)
+	at bspkrs.util.CommonUtils.getConfigDir(CommonUtils.java:432)
+	at bspkrs.util.BSPropRegistry.registerPropHandler(BSPropRegistry.java:41)
+	at bspkrs.util.BSPropRegistry.registerPropHandler(BSPropRegistry.java:24)
+	at mod_bspkrsCore.<init>(mod_bspkrsCore.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at cpw.mods.fml.common.modloader.ModLoaderModContainer.constructMod(ModLoaderModContainer.java:496)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:194)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:105)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:509)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:183)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:472)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:807)
+	at net.minecraft.client.main.Main.main(SourceFile:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:27)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at bspkrs.util.CommonUtils.getMinecraftDir(CommonUtils.java:422)
+	at bspkrs.util.CommonUtils.getConfigDir(CommonUtils.java:432)
+	at bspkrs.util.BSPropRegistry.registerPropHandler(BSPropRegistry.java:41)
+	at bspkrs.util.BSPropRegistry.registerPropHandler(BSPropRegistry.java:24)
+	at mod_bspkrsCore.<init>(mod_bspkrsCore.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at cpw.mods.fml.common.modloader.ModLoaderModContainer.constructMod(ModLoaderModContainer.java:496)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:194)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:105)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:509)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:183)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:472)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:807)
+	at net.minecraft.client.main.Main.main(SourceFile:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:27)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.6.4
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_40, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 192311120 bytes (183 MB) / 476577792 bytes (454 MB) up to 954728448 bytes (910 MB)
+	JVM Flags: 1 total; -Xmx1024m
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v8.11 FML v6.4.20.916 Minecraft Forge 9.11.1.916 7 mods loaded, 7 mods active
+	mcp{8.09} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed
+	FML{6.4.20.916} [Forge Mod Loader] (minecraftforge-9.11.1.916.jar) Unloaded->Constructed
+	Forge{9.11.1.916} [Minecraft Forge] (minecraftforge-9.11.1.916.jar) Unloaded->Constructed
+	mod_bspkrsCore{Not available} [mod_bspkrsCore] (bspkrsCore.zip) Unloaded
+	mod_ArmorStatusHUD{Not available} [mod_ArmorStatusHUD] (ArmorStatusHUD.zip) Unloaded
+	inventorytweaks{1.54} [Inventory Tweaks] (InventoryTweaks.jar) Unloaded
+	mod_ReiMinimap{Not available} [mod_ReiMinimap] (ReiMinimap.zip) Unloaded
+	Launched Version: 1.6.4-Forge9.11.1.916
+	LWJGL: 2.9.0
+	OpenGL: GeForce GTX 770/PCIe/SSE2 GL version 4.3.0, NVIDIA Corporation
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Pack: Default
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: ~~ERROR~~ NullPointerException: null

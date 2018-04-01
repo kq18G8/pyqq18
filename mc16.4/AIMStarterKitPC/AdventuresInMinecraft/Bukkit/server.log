@@ -675,3 +675,58 @@
 2018-04-01 17:30:59 [INFO] Connection reset
 2018-04-01 17:30:59 [INFO] mygame lost connection: disconnect.endOfStream
 2018-04-01 17:30:59 [INFO] ¡ìemygame left the game.
+2018-04-01 17:31:16 [INFO] Starting minecraft server version 1.6.4
+2018-04-01 17:31:16 [INFO] Loading properties
+2018-04-01 17:31:16 [INFO] Default game type: CREATIVE
+2018-04-01 17:31:16 [INFO] Generating keypair
+2018-04-01 17:31:17 [INFO] Starting Minecraft server on *:25565
+2018-04-01 17:31:17 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R2.0-b2918jnks (MC: 1.6.4) (Implementing API version 1.6.4-R2.0)
+2018-04-01 17:31:17 [INFO] [RaspberryJuice] Loading RaspberryJuice v1.3
+2018-04-01 17:31:17 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2018-04-01 17:31:17 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2018-04-01 17:31:17 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2018-04-01 17:31:17 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2018-04-01 17:31:17 [INFO] Preparing level "world"
+2018-04-01 17:31:17 [INFO] Preparing start region for level 0 (Seed: -7697595087270304427)
+2018-04-01 17:31:18 [INFO] Preparing start region for level 1 (Seed: -7697595087270304427)
+2018-04-01 17:31:18 [INFO] Preparing start region for level 2 (Seed: -7697595087270304427)
+2018-04-01 17:31:19 [INFO] [RaspberryJuice] Enabling RaspberryJuice v1.3
+2018-04-01 17:31:19 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2018-04-01 17:31:19 [INFO] Done (1.509s)! For help, type "help" or "?"
+2018-04-01 17:32:01 [INFO] mygame[/127.0.0.1:58033] logged in with entity id 59 at ([world] 103.0, 62.0, 324.0)
+2018-04-01 17:32:37 [INFO] Starting input thread!
+2018-04-01 17:32:37 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58051.
+2018-04-01 17:32:37 [INFO] Starting output thread!
+2018-04-01 17:35:23 [INFO] Connection reset
+2018-04-01 17:35:23 [INFO] mygame lost connection: disconnect.endOfStream
+2018-04-01 17:35:23 [INFO] ¡ìemygame left the game.
+2018-04-01 17:36:56 [INFO] [RaspberryJuice] Closed connection to/127.0.0.1:58051.
+2018-04-01 17:36:57 [INFO] [RaspberryJuice] Opened connection to/127.0.0.1:58079.
+2018-04-01 17:36:57 [INFO] Starting input thread!
+2018-04-01 17:36:57 [INFO] Starting output thread!
+2018-04-01 17:36:57 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:175)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+2018-04-01 17:37:01 [WARNING] [RaspberryJuice] Task #2 for RaspberryJuice v1.3 generated an exception
+java.lang.NullPointerException
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:168)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:106)
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:87)
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:122)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_6_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.t(MinecraftServer.java:524)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:227)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)

@@ -1,0 +1,15 @@
+f=open('123.txt','r')
+N=f.read()
+print(N)
+Ns=N.split('\n')
+print(Ns)
+print(Ns[0])
+NSS=Ns[0].split(',')
+print(NSS)
+print(NSS[4])
+S_list=[]
+for S in Ns:
+    S_list.append(S.split(','))
+print(S_list)
+print(S_list[1][4])
+print(S_list[2][1:5])

@@ -6,8 +6,15 @@ print ('hello')
 ports = list(serial.tools.list_ports.comports())
 print (ports)
 
-song1 = ['1','1','5','5','6','6','5','5','4','4','3','3','2','2','1','1']
-song2 = ['1','2','3','1','1','2','3','1','3','4','5','3','4','5']
+#song1 = ['1','1','5','5','6','6','5','5','4','4','3','3','2','2','1','1']
+#song2 = ['1','2','3','1','1','2','3','1','3','4','5','3','4','5']
+
+f=open('..\my123.txt','r')
+song_list=[]
+data=f.read()
+data_list=data.split('\n')
+for D in data_list:
+    song_list.append(D.split(","))
 
 #f = open('mysongs.csv', 'r')
 #data = f.read()
@@ -18,7 +25,7 @@ song2 = ['1','2','3','1','1','2','3','1','3','4','5','3','4','5']
 
 for p in ports:
     print (p[1])
-    if "Arduino" in p[1]:
+    if "SERIAL" in p[1]:
 	    ser=serial.Serial(port=p[0])
     else :
 	    print ("No Arduino Device was found connected to the computer")
@@ -29,17 +36,15 @@ for p in ports:
 def run():
     action = "empty"
     while action != "q":
-        print ('select which song do you want to play ? 1,2 q and others for quit')
+        print ('select which song do you want to play ? 1,2,3,4.... q and others for quit')
         action = input("> ")
-        if action == "1":
-            for notes in song1:
+        song_num=int(action)-1
+        if action == "q":
+            return
+        else :
+            for notes in song_list[song_num]:
                 ser.write(notes.encode())
                 print ("send:"+notes)
-                time.sleep(1)
-        elif action == "2":
-            ser.write('2'.encode())
-
-        else :
-            return
+                time.sleep(2)
 
 run()
